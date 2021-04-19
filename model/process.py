@@ -5,5 +5,5 @@ listing = pd.read_csv("https://raw.githubusercontent.com/israelaikulola/worksamp
 print(listing.shape)
 print(listing.head(2))
 print(listing.info())
-listing.describe()
+print(listing.columns)
 
